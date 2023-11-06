@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'top/login'
   get 'tweets/index'
   get 'tweets/new'
   get 'top/main'

@@ -1,0 +1,9 @@
+<h1>ログイン画面</h1>
+
+<%= form_tag '/top/login', method: :post do %>
+    <%= label_tag :uid, 'UID：' %>
+    <%= text_field_tag :uid %><br>
+    <%= label_tag :pass, 'PASS：' %>
+    <%= password_field_tag :pass %><br>
+    <%= submit_tag 'ログイン' %>
+<% end %>
